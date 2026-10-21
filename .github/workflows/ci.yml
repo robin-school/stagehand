@@ -62,7 +62,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         run: |
@@ -82,7 +82,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         run: |
@@ -106,7 +106,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         run: |
@@ -136,7 +136,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         run: |
@@ -174,7 +174,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         run: |
@@ -211,7 +211,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         run: |
@@ -272,7 +272,7 @@ jobs:
         if: needs.determine-evals.outputs.run-combination == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-combination == 'true'
@@ -334,7 +334,7 @@ jobs:
         if: needs.determine-evals.outputs.run-act == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-act == 'true'
@@ -399,7 +399,7 @@ jobs:
         if: needs.determine-evals.outputs.run-extract == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-extract == 'true'
@@ -467,7 +467,7 @@ jobs:
         if: needs.determine-evals.outputs.run-observe == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-observe == 'true'
@@ -532,7 +532,7 @@ jobs:
         if: needs.determine-evals.outputs.run-targeted-extract == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-targeted-extract == 'true'
@@ -601,7 +601,7 @@ jobs:
         if: needs.determine-evals.outputs.run-agent == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-agent == 'true'
