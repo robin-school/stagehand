@@ -63,6 +63,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         run: |
@@ -83,6 +84,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         run: |
@@ -107,6 +109,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         run: |
@@ -137,6 +140,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         run: |
@@ -175,6 +179,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         run: |
@@ -212,6 +217,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         run: |
@@ -273,6 +279,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-combination == 'true'
@@ -335,6 +342,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-act == 'true'
@@ -400,6 +408,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-extract == 'true'
@@ -468,6 +477,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-observe == 'true'
@@ -533,6 +543,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-targeted-extract == 'true'
@@ -602,6 +613,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
         if: needs.determine-evals.outputs.run-agent == 'true'
